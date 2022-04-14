@@ -6,7 +6,7 @@
 body{
     background-color: rgb(5, 5, 66);
 }
-nav{
+header nav{
     background-color: rgb(88, 119, 146);
     width: 97%;
     height: 30px;
@@ -71,4 +71,15 @@ main img{
 }
 .textblock{
     display: flex;
+}
+footer{
+    position: absolute;
+    width: 100%;
+}
+footer nav{
+    background-color: rgb(5, 5, 66);
+    margin: 20px 0;
+}
+footer nav a{
+    color: #fff;
 }
