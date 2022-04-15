@@ -4,7 +4,14 @@
 let initProducts = () => {
     // To see the shirts object, run:
     // console.log(shirts);
-
+    document.getElementById('image').src = shirts[0].colors.blue.front;
+    document.getElementById('image2').src = shirts[1].colors.blue.front;
+    document.getElementById('image3').src = shirts[2].colors.white.back;
+    document.getElementById('image4').src = shirts[3].colors.white.front;
+    document.getElementById('name').innerHTML = shirts[0].name;
+    document.getElementById('name2').innerHTML = shirts[1].name;
+    document.getElementById('name3').innerHTML = shirts[2].name;
+    document.getElementById('name4').innerHTML = shirts[3].name;
     // Your Code Here
 };
 
