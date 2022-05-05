@@ -87,16 +87,64 @@ footer nav a{
     border: solid 5px;
     border-radius: 30px;
     width: 200px;
-    height: 390px;
+    height: 320px;
     background-color: #fff;
     margin:80px 50px;
+    text-align: center;
 }
 main{
     background-color: #fff;
+}
+.wrapper{
     display: flex;
 }
 
 .tshirt-card img{
     width: 200px;
     height: auto;
+    margin-top: 3px;
+    border-radius: 30px;
+}
+
+
+
+.details{
+    margin-top: 70px;
+    height: 700px;
+}
+.details img{
+    width: 200px;
+    height: auto;
+    margin-top: 3px;
+    border-radius: 30px;
+    position: absolute;
+    left: 120px;
+    top: 260px;
+}
+
+.buttons{
+    position: absolute;
+    top: 360px;
+    left: 340px;
+}
+.cost{
+    position: absolute;
+    left: 340px;
+    top: 270px;
+}
+
+.buttons button{
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.btn2{background-color: blue; color: white}
+.btn3{background-color: red; color: #fff;}
+.btn4{background-color: pink; color: black;}
+
+.name{
+    position: absolute;
+    top: 220px;
+    left: 150px;
 }
