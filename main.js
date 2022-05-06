@@ -19,6 +19,7 @@ let initProducts = () => {
   
 };
 
+
 const name1 = document.createElement('h2');
 name1.className = "name";
 name1.innerHTML = shirts[0].name;
@@ -48,6 +49,29 @@ function Change(n){
     }
     if(n==5){
       image1.src = shirts[0].colors.white.back;
-  }
+    }
+    if(n==6){
+      image1.src = shirts[1].colors.white.front;
+    }
+    if(n==7){
+      image1.src = shirts[1].colors.blue.front;
+    }
+    if(n==8){
+      image1.src = shirts[1].colors.red.front;
+    }
+    if(n==9){
+      image1.src = shirts[1].colors.green.front;
+    }
+    if(n==10){
+      image1.src = shirts[1].colors.yellow.front;
+    }
+    if(n==11){
+      image1.src = shirts[1].colors.white.back;
+    }
 }
 
+let initT2 = () => {
+  Change(6);
+  name1.innerHTML = shirts[1].name;
+  cost.innerHTML = shirts[1].price;
+}
