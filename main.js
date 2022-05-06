@@ -68,10 +68,36 @@ function Change(n){
     if(n==11){
       image1.src = shirts[1].colors.white.back;
     }
+    if(n==12){
+      image1.src = shirts[2].colors.white.front;
+    }
+    if(n==13){
+      image1.src = shirts[2].colors.pink.front;
+    }
+    if(n==14){
+      image1.src = shirts[2].colors.white.back;
+    }
+    if(n==15){
+      image1.src = shirts[3].colors.white.front;
+    }
+    if(n==16){
+      image1.src = shirts[3].colors.white.back;
+    }
 }
 
 let initT2 = () => {
   Change(6);
   name1.innerHTML = shirts[1].name;
   cost.innerHTML = shirts[1].price;
+}
+
+let initT3 = () => {
+  Change(12);
+  name1.innerHTML = shirts[2].name;
+  cost.innerHTML = shirts[2].price;
+}
+let initT4 = () => {
+  Change(15);
+  name1.innerHTML = shirts[3].name;
+  cost.innerHTML = shirts[3].price;
 }
